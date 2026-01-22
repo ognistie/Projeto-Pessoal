@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: radial-gradient(circle at top, #050b1e, #020617);
+  color: #e5e7eb;
+  line-height: 1.7;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  background: linear-gradient(120deg, #0f172a, #020617);
+  padding: 70px 20px 50px;
+  overflow: hidden;
+}
+
+.hero-overlay {
+   position: absolute;
+  inset: 0;
+  background: url("https://img.freepik.com/fotos-gratis/homem-de-tiro-medio-usando-oculos-vr_23-2149126949.jpg?semt=ais_user_personalization&w=740&q=80") center/cover;
+  background-size: cover;
+  opacity: 0.26;
+  filter: brightness(0.6) contrast(1.1);
+}
+
+.hero-content {
+  position: relative;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 3px solid #38bdf8;
+  box-shadow: 0 0 30px rgba(56,189,248,0.6);
+  object-fit: cover;
+}
+
+.hero h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+
+.hero-subtitle {
+  color: #38bdf8;
+  margin-top: 6px;
+}
+
+.hero-text {
+  max-width: 520px;
+  margin-top: 10px;
+  color: #cbd5f5;
+}
+
+/* NAV */
+.hero-nav {
+  position: relative;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.hero-nav a {
+  color: #e5e7eb;
+  margin: 0 14px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.hero-nav a:hover {
+  color: #38bdf8;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1100px;
+  margin: 70px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+/* GLASS CARD */
+.glass {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(56,189,248,0.25);
+}
+
+.card {
+  padding: 25px;
+  border-radius: 16px;
+  margin-bottom: 22px;
+  box-shadow: 0 0 40px rgba(56,189,248,0.08);
+}
+
+.tech {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #93c5fd;
+}
+
+/* STACK */
+.stack-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.stack-grid li {
+  background: rgba(15,23,42,0.8);
+  border: 1px solid rgba(56,189,248,0.25);
+  padding: 14px;
+  border-radius: 14px;
+  text-align: center;
+}
+
+/* LINKEDIN */
+.linkedin-box {
+  margin-top: 35px;
+  padding: 25px;
+  border-radius: 16px;
+  background: rgba(2,6,23,0.8);
+  border-left: 4px solid #38bdf8;
+}
+
+.btn-linkedin {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 12px 22px;
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  color: #020617;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.btn-linkedin:hover {
+  transform: scale(1.05);
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 25px;
+  background: #020617;
+  color: #94a3b8;
+}
